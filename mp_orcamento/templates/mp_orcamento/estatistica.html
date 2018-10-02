@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Estatisticas Clientes</title>
+</head>
+<body>
+    <h1>Estatísticas dos clientes</h1>
+    <h2>Quantidade de clientes</h2>
+    <p>{{ quantidade }} cliente(s).</p>
+    <h2>Cliente com maior custo total de orçamentos</h2>
+    <p>{{ cliente_maior_somatorio_orcamento.nome }}, 
+        R$ {{ maior_somatorio_orcamentos }}.
+    </p>
+    <h2>Cliente com menor custo total de orçamentos</h2>
+    <p>{{ cliente_menor_somatorio_orcamento.nome }}, 
+        R$ {{ menor_somatorio_orcamentos }}.
+</body>
+</html>
